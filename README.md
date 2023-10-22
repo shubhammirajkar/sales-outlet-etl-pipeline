@@ -62,3 +62,7 @@ Load the transformed "Outlet Sales" data into Azure Data Lake Storage using Data
 - Store the transformed data in the specified location within ADLS.
 - You can see the transformed data being loaded in ADLS in image below.
 <img src="transformed_data.png">
+
+## Conclusion
+
+This exercise provides an end-to-end overview of building an ETL pipeline for the "Outlet Sales" dataset, from data creation in Azure SQL to transformation and storage in Azure Data Lake Storage. You can further customize these steps to meet the specific requirements of your data integration project.
