@@ -3,7 +3,7 @@
 This exercise covers the creation of an end-to-end ETL pipeline that extracts data from an Azure SQL Server database, transforms the data using Databricks, and loads the transformed "Outlet Sales" dataset into Azure Data Lake Storage (ADLS). Follow these steps to understand the process.
 
 ## Architecture
-
+<img src="architecture.png">
 
 ## Introduction
 
@@ -28,6 +28,11 @@ To initialize the "Outlet Sales" data in the Azure SQL Server Database:
 - Create a database in a SQL server.
 - Execute SQL queries to create the necessary table structure.
 - Populate the table with sample data for the "Outlet Sales" dataset.
+- Refer below SQL query to create and insert table in SQL Server.
+ 
+ Query: [outlet.txt](https://github.com/shubhammirajkar/sales-outlet-etl-pipeline/blob/main/outlet.txt)
+  
+<img src="database_creation.png">
 
 ## 2. Extract Data to Databricks Notebook
 
@@ -36,6 +41,8 @@ In this step, we'll extract data from the Azure SQL Server Database:
 - Set up a Databricks notebook.
 - Configure the notebook to connect to your Azure SQL Server Database.
 - Retrieve the "Outlet Sales" dataset using SQL queries.
+
+ Notebook: [Outlet Sales.ipynb](https://github.com/shubhammirajkar/sales-outlet-etl-pipeline/blob/main/Outlet%20Sales.ipynb)
 
 ## 3. Transform Data with Databricks
 
@@ -54,4 +61,4 @@ Load the transformed "Outlet Sales" data into Azure Data Lake Storage using Data
 - Configure the notebook to connect to your ADLS.
 - Store the transformed data in the specified location within ADLS.
 - You can see the transformed data being loaded in ADLS in image below.
-
+<img src="transformed_data.png">
