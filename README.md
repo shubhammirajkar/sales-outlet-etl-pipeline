@@ -53,7 +53,7 @@ Perform data transformations on the "Outlet Sales" dataset using Databricks:
 - Refer below notebook for the transformation code and connections.
 
 
-## 4. Load Data to Azure Data Lake Storage
+## 4. Load Data to Azure Data Lake Storage 
 
 Load the transformed "Outlet Sales" data into Azure Data Lake Storage using Databricks:
 
