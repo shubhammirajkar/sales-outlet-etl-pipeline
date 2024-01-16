@@ -2,7 +2,7 @@
 
 This exercise covers the creation of an end-to-end ETL pipeline that extracts data from an Azure SQL Server database, perform cleaning and transformation of the data using Databricks, and loads the transformed "Outlet Sales" dataset into Azure Data Lake Storage (ADLS). Follow these steps to understand the process.
  
-## Architecture
+## Architecture 
 <img src="architecture.png">
 
 ## Introduction
